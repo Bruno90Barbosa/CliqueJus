@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header .logo {
+  margin-right: 20px;
+  width: 10%;
+  height: auto;
+  max-width: 150px;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+
+
+.botoes button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(235, 49, 210, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botoes button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin: 2px 0;
+
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  display: none;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+#audio-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+}
